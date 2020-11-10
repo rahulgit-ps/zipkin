@@ -2,7 +2,7 @@
 # Run `travis lint` when changing this file to avoid breaking the build.
 
 # See https://docs.travis-ci.com/user/reference/overview/#for-a-particular-travisyml-configuration
-virt: lxd   # LXD containers where possible as they boot much faster than full VMs
+#virt: lxd   # LXD containers where possible as they boot much faster than full VMs
 os: linux   # required for arch different than amd64
 dist: focal # newest available distribution
 
